@@ -9,7 +9,6 @@ from . import views
 
 urlpatterns = [
 
-    #url(r'^hello-view/', views..as_view()),
-    #url(r'', include(router.urls))
+    url(r'^$', views.ListCourse.as_view(), name='course_list')
 
 ]

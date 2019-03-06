@@ -18,7 +18,18 @@ from django.conf.urls import url
 from django.conf.urls import include
 from django.conf.urls import include
 
+from rest_framework import routers
+
+
+from courses import views
+
+router = routers.SimpleRouter()
+router.register(r'courses', views.CourseViewSet)
+router.register(r'reviews', views.ReviewViewSet)
+
 urlpatterns = [
     url('admin/', admin.site.urls),
-    url(r'^api/v1/courses', include('courses.urls'))
+    url(r'^api/v1/courses', include('courses.urls')),
+
+    url(r'^api/v2/', include(router.urls))
 ]

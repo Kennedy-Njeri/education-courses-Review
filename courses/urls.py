@@ -21,7 +21,7 @@ urlpatterns = [
     url(r'(?P<course_pk>\d+)/reviews/$', views.ListCreateReview.as_view(), name='review_list'),
     url(r'(?P<course_pk>\d+)/reviews/(?P<pk>\d+)/$', views.RetrieveUpdateDestroyReview.as_view(), name='review_detail'),
 
-    #url(r'^api/v2/', include(router.urls)),
+    url(r'^api/v2/', include(router.urls)),
 
 
 ]

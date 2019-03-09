@@ -29,7 +29,7 @@ router.register(r'reviews', views.ReviewViewSet)
 
 urlpatterns = [
     url('admin/', admin.site.urls),
-    url(r'^api/v1/courses', include('courses.urls')),
+    
 
     url(r'^api/v2/', include(router.urls))
 ]

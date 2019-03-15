@@ -10,9 +10,9 @@ from courses import views
 
 from rest_framework.routers import DefaultRouter
 
-router = routers.SimpleRouter()
-router.register(r'courses', views.CourseViewSet)
-router.register(r'reviews', views.ReviewViewSet)
+#router = routers.SimpleRouter()
+#router.register(r'courses', views.CourseViewSet)
+#router.register(r'reviews', views.ReviewViewSet)
 
 router = DefaultRouter()
 

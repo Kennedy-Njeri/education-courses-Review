@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="309d2a22-71db-4ee0-8c5f-35f96f04a9b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/courses/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu_reviews/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_reviews/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,24 +35,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="89" />
-          <entry key="py" value="3461" />
+          <entry key="py" value="3698" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="89" />
-          <entry key="Python" value="3461" />
+          <entry key="Python" value="3698" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/edu_reviews/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1067">
-              <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="109">
+              <caret line="124" column="35" lean-forward="true" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -131,17 +130,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="201">
-              <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1553201294000" expanded="true" signature="513:518" ph="..." />
-                <marker date="1553201294000" expanded="true" signature="1035:1040" ph="..." />
-                <marker date="1553201294000" expanded="true" signature="1206:1211" ph="..." />
-                <marker date="1553201294000" expanded="true" signature="2060:2223" ph="..." />
+                <marker date="1553201727000" expanded="true" signature="513:518" ph="..." />
+                <marker date="1553201727000" expanded="true" signature="1035:1040" ph="..." />
+                <marker date="1553201727000" expanded="true" signature="1206:1211" ph="..." />
+                <marker date="1553201727000" expanded="true" signature="2060:2255" ph="..." />
               </folding>
             </state>
           </provider>
@@ -160,9 +159,9 @@
         <option value="$PROJECT_DIR$/edu_reviews/urls.py" />
         <option value="$PROJECT_DIR$/courses/urls.py" />
         <option value="$PROJECT_DIR$/courses/serializers.py" />
-        <option value="$PROJECT_DIR$/edu_reviews/settings.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/courses/views.py" />
+        <option value="$PROJECT_DIR$/edu_reviews/settings.py" />
       </list>
     </option>
   </component>
@@ -173,8 +172,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="141" />
-    <option name="y" value="462" />
+    <option name="x" value="668" />
+    <option name="y" value="23" />
     <option name="width" value="1333" />
     <option name="height" value="736" />
   </component>
@@ -240,7 +239,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="383" y="68" width="1333" height="736" extended-state="0" />
+    <frame x="668" y="23" width="1333" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23625097" />
@@ -316,13 +315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu_reviews/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1067">
-          <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/courses/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -344,14 +336,21 @@
     <entry file="file://$PROJECT_DIR$/courses/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
-          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1553201294000" expanded="true" signature="513:518" ph="..." />
-            <marker date="1553201294000" expanded="true" signature="1035:1040" ph="..." />
-            <marker date="1553201294000" expanded="true" signature="1206:1211" ph="..." />
-            <marker date="1553201294000" expanded="true" signature="2060:2223" ph="..." />
+            <marker date="1553201727000" expanded="true" signature="513:518" ph="..." />
+            <marker date="1553201727000" expanded="true" signature="1035:1040" ph="..." />
+            <marker date="1553201727000" expanded="true" signature="1206:1211" ph="..." />
+            <marker date="1553201727000" expanded="true" signature="2060:2255" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu_reviews/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="124" column="35" lean-forward="true" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
         </state>
       </provider>
     </entry>

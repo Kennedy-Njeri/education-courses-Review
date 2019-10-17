@@ -70,15 +70,15 @@ class CourseSerializer(serializers.ModelSerializer):
 
         return round(sum)
 
-    def get_max_rating(self, obj):
-        max = obj.reviews.aggregate(Max('rating')).get('rating__max')
 
-        if max is None:
+
+    def get_min_rating(self, obj):
+        min = obj.reviews.aggregate(Min('rating')).get('rating__min')
+
+        if min is None:
             return 0
 
-        return round(max)
-
-
+        return round(min)
 
 
     def get_min_plus_max(self, obj):

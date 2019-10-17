@@ -21,11 +21,7 @@ class ReviewSerializer(serializers.ModelSerializer):
         )
         model = models.Review
 
-    def validate_rating(self, value):
-        if value in range(1, 6):
-            return value
 
-        raise serializers.ValidationError('Rating must be an integer between 1 and 5')
 
 
 class CourseSerializer(serializers.ModelSerializer):
@@ -62,7 +58,13 @@ class CourseSerializer(serializers.ModelSerializer):
 
         return round(average * 2) / 2
 
+    def get_sum_total(self, obj):
+        sum = obj.reviews.aggregate(Sum('rating')).get('rating__sum')
 
+        if sum is None:
+            return 0
+
+        return round(sum)
 
     def get_max_rating(self, obj):
         max = obj.reviews.aggregate(Max('rating')).get('rating__max')

@@ -21,7 +21,11 @@ class ReviewSerializer(serializers.ModelSerializer):
         )
         model = models.Review
 
+    def validate_rating(self, value):
+        if value in range(1, 6):
+            return value
 
+        raise serializers.ValidationError('Rating must be an integer between 1 and 5')
 
 
 class CourseSerializer(serializers.ModelSerializer):

@@ -87,8 +87,3 @@ class CourseSerializer(serializers.ModelSerializer):
         return round(min)
 
 
-    def get_min_plus_max(self, obj):
-
-        total = self.get_max_rating(obj) + self.get_min_rating(obj)
-
-        return total

@@ -91,5 +91,6 @@ class CourseViewSet(viewsets.ModelViewSet):
 
 
 class ReviewViewSet(viewsets.ModelViewSet):
+    #permission_classes = (IsSuperUser, permissions.DjangoModelPermissions,)
     queryset = models.Review.objects.all()
     serializer_class = serializers.ReviewSerializer
